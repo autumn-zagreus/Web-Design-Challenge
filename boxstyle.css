@@ -6,7 +6,7 @@ body{
 
 .table{
     display: grid;
-    grid-template-rows: 450px 450px;
+    grid-template-rows: 900px 900px;
 }
 
 /* WE CAN NOW SPECIFY DIMENSIONS FOR A BOX */
