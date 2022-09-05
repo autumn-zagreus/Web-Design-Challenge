@@ -16,5 +16,7 @@ table{
 /* allows you to specify different media elements depending on screen size */
 @media (max-width: 600px)
 {
-    
+    table{
+        display:-moz-inline-stack;
+    }
 }
