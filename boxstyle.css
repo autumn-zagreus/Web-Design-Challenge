@@ -5,9 +5,8 @@ body{
 }
 
 .table{
-    background: lightgray;
     display: grid;
-    grid-template-columns: 450px 450px;
+    grid-template-rows: 450px 450px;
 }
 
 /* WE CAN NOW SPECIFY DIMENSIONS FOR A BOX */
