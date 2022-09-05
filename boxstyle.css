@@ -6,31 +6,27 @@ body{
 
 /* WE CAN NOW SPECIFY DIMENSIONS FOR A BOX */
 /* BOXES ARE ATTACHED TO CLASSES */
-.table{
-    width = 100%;
-}
-
-}
+table {
+    display:flex;
+    flex-wrap:wrap;
+    width:90%;
+    margin:0 auto;
+   }
+   
+tr {
+    flex:1 0 300px;
+    display:inline;
+   }
+   
+td {
+    display:inline-block;
+    width:100px;
+    height:100px;
+   }
 
 /* USE THE @media HANDLE TO IMPLEMENT A MEDIA QUERY*/
 /* allows you to specify different media elements depending on screen size */
 @media (max-width: 600px)
 {
-    table {
-        display:flex;
-        flex-wrap:wrap;
-        width:90%;
-        margin:0 auto;
-       }
-       
-       tr {
-        flex:1 0 300px;
-        display:inline;
-       }
-       
-       td {
-        display:inline-block;
-        width:100px;
-        height:100px;
-       }
+    
 }
