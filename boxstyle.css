@@ -6,7 +6,8 @@ body{
 
 table{
     background: lightgray;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 450px 450px;
 }
 
 /* WE CAN NOW SPECIFY DIMENSIONS FOR A BOX */
@@ -17,6 +18,6 @@ table{
 @media (max-width: 1000px)
 {
     table{
-        display:-moz-inline-stack;
+        grid-template-columns: 300px;
     }
 }
