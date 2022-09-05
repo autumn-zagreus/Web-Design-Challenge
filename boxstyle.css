@@ -1,7 +1,7 @@
-/* CSS USED TO STYLE BOXES IN THE MEDIA QUERY DEMO */
+/* CSS USED TO STYLE BOXES IN THE COMPARISONS.HTML FILE */
 
 body{
-    background: lightgray;
+    background: white;
 }
 
 /* WE CAN NOW SPECIFY DIMENSIONS FOR A BOX */
@@ -11,29 +11,6 @@ body{
     height: 200px;
 }
 
-.greenbox{
-    /* colors box green */
-    background: green;
-}
-
-.redbox{
-    /* colors box red */
-    background: red;
-}
-
-.bluebox{
-    /* colors box blue */
-    background: blue;
-}
-
-.yellowbox{
-    /* colors box yellow */
-    background: yellow;
-}
-
-.violetbox{
-    /* colors box violet */
-    background: violet;
 }
 
 /* USE THE @media HANDLE TO IMPLEMENT A MEDIA QUERY*/
