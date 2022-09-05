@@ -4,7 +4,7 @@ body{
     background: white;
 }
 
-table{
+.table{
     background: lightgray;
     display: grid;
     grid-template-columns: 450px 450px;
