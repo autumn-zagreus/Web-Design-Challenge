@@ -5,7 +5,7 @@ body{
 }
 
 .table{
-    display: table-row-group;
+    display: table-row;
 }
 
 /* WE CAN NOW SPECIFY DIMENSIONS FOR A BOX */
