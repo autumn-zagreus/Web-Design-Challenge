@@ -6,9 +6,40 @@ body{
 
 /* WE CAN NOW SPECIFY DIMENSIONS FOR A BOX */
 /* BOXES ARE ATTACHED TO CLASSES */
-.box{
-    width: 200px;
-    height: 200px;
+.table{
+    <center>
+        <h1>Let's compare the visualizations, showing Latitude vs. ...</h1>
+        <table border="0">
+            <tr>
+                <th>
+                    <center><h3>Maximum Temperature!</h3></center>
+                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/max_temp.html">
+                    <img src="Resources/assets/images/Fig1.png" title="Latitude vs. Maximum Temperature" alt="Latitude vs. Maximum Temperature" width="450" height="275">
+                    </a>
+                </th>
+                <th>
+                    <center><h3>Humidity!</h3></center>
+                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/humidity.html">
+                    <img src="Resources/assets/images/Fig2.png" title="Latitude vs. Humidity" alt="Latitude vs. Humidity" width="450" height="275">
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <center><h3>Cloudiness!</h3></center>
+                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/cloudiness.html">
+                    <img src="Resources/assets/images/Fig3.png" title="Latitude vs. Cloudiness" alt="Latitude vs. Cloudiness" width="450" height="275">
+                    </a>
+                </td>
+                <td>
+                    <center><h3>Wind Speed!</h3></center>
+                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/wind_speed.html">
+                    <img src="Resources/assets/images/Fig4.png" title="Latitude vs. Wind Speed" alt="Latitude vs. Wind Speed" width="450" height="275">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </center>
 }
 
 }
@@ -18,24 +49,43 @@ body{
 @media (max-width: 600px)
 {
     /* to modify the green box */
-    .greenbox{
-        background: greenyellow;
-    }
-
-    /* modify the redbox to display a red circle */
-    .redbox{
-        border-radius: 50%; /* rounds the edges */
-        border: solid 2px black;
-    }
-
-    /* modify the blue box to make something fun */
-    .bluebox{
-        transform: rotate(360deg);
-        transition: transform 0.7s ease-in;
-    }
-
-    /* violet box - make it disappear */
-    .violetbox{
-        display: none;
+    .table{
+        <center>
+        <h1>Let's compare the visualizations, showing Latitude vs. ...</h1>
+        <table border="0">
+            <tr>
+                <th>
+                    <center><h3>Maximum Temperature!</h3></center>
+                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/max_temp.html">
+                    <img src="Resources/assets/images/Fig1.png" title="Latitude vs. Maximum Temperature" alt="Latitude vs. Maximum Temperature" width="450" height="275">
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <center><h3>Humidity!</h3></center>
+                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/humidity.html">
+                    <img src="Resources/assets/images/Fig2.png" title="Latitude vs. Humidity" alt="Latitude vs. Humidity" width="450" height="275">
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <center><h3>Cloudiness!</h3></center>
+                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/cloudiness.html">
+                    <img src="Resources/assets/images/Fig3.png" title="Latitude vs. Cloudiness" alt="Latitude vs. Cloudiness" width="450" height="275">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center><h3>Wind Speed!</h3></center>
+                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/wind_speed.html">
+                    <img src="Resources/assets/images/Fig4.png" title="Latitude vs. Wind Speed" alt="Latitude vs. Wind Speed" width="450" height="275">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </center>
     }
 }
