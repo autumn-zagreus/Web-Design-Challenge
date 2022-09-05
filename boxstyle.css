@@ -14,7 +14,7 @@ table{
 
 /* USE THE @media HANDLE TO IMPLEMENT A MEDIA QUERY*/
 /* allows you to specify different media elements depending on screen size */
-@media (max-width: 600px)
+@media (max-width: 1000px)
 {
     table{
         display:-moz-inline-stack;
