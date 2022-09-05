@@ -7,39 +7,7 @@ body{
 /* WE CAN NOW SPECIFY DIMENSIONS FOR A BOX */
 /* BOXES ARE ATTACHED TO CLASSES */
 .table{
-    <center>
-        <h1>Let's compare the visualizations, showing Latitude vs. ...</h1>
-        <table border="0">
-            <tr>
-                <th>
-                    <center><h3>Maximum Temperature!</h3></center>
-                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/max_temp.html">
-                    <img src="Resources/assets/images/Fig1.png" title="Latitude vs. Maximum Temperature" alt="Latitude vs. Maximum Temperature" width="450" height="275">
-                    </a>
-                </th>
-                <th>
-                    <center><h3>Humidity!</h3></center>
-                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/humidity.html">
-                    <img src="Resources/assets/images/Fig2.png" title="Latitude vs. Humidity" alt="Latitude vs. Humidity" width="450" height="275">
-                    </a>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <center><h3>Cloudiness!</h3></center>
-                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/cloudiness.html">
-                    <img src="Resources/assets/images/Fig3.png" title="Latitude vs. Cloudiness" alt="Latitude vs. Cloudiness" width="450" height="275">
-                    </a>
-                </td>
-                <td>
-                    <center><h3>Wind Speed!</h3></center>
-                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/wind_speed.html">
-                    <img src="Resources/assets/images/Fig4.png" title="Latitude vs. Wind Speed" alt="Latitude vs. Wind Speed" width="450" height="275">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </center>
+    width = 100%;
 }
 
 }
@@ -48,44 +16,21 @@ body{
 /* allows you to specify different media elements depending on screen size */
 @media (max-width: 600px)
 {
-    /* to modify the green box */
-    .table{
-        <center>
-        <h1>Let's compare the visualizations, showing Latitude vs. ...</h1>
-        <table border="0">
-            <tr>
-                <th>
-                    <center><h3>Maximum Temperature!</h3></center>
-                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/max_temp.html">
-                    <img src="Resources/assets/images/Fig1.png" title="Latitude vs. Maximum Temperature" alt="Latitude vs. Maximum Temperature" width="450" height="275">
-                    </a>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <center><h3>Humidity!</h3></center>
-                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/humidity.html">
-                    <img src="Resources/assets/images/Fig2.png" title="Latitude vs. Humidity" alt="Latitude vs. Humidity" width="450" height="275">
-                    </a>
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <center><h3>Cloudiness!</h3></center>
-                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/cloudiness.html">
-                    <img src="Resources/assets/images/Fig3.png" title="Latitude vs. Cloudiness" alt="Latitude vs. Cloudiness" width="450" height="275">
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <center><h3>Wind Speed!</h3></center>
-                    <a href="file:///Users/gautamiyer/Documents/GitHub/Web-Design-Challenge/Visualizations/wind_speed.html">
-                    <img src="Resources/assets/images/Fig4.png" title="Latitude vs. Wind Speed" alt="Latitude vs. Wind Speed" width="450" height="275">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </center>
-    }
+    table {
+        display:flex;
+        flex-wrap:wrap;
+        width:90%;
+        margin:0 auto;
+       }
+       
+       tr {
+        flex:1 0 300px;
+        display:inline;
+       }
+       
+       td {
+        display:inline-block;
+        width:100px;
+        height:100px;
+       }
 }
